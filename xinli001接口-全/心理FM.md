@@ -25,6 +25,20 @@ key	046b6a2a43dc6ff6e770255f57328f89
 ![image](home-tuijian-detail.png)
 ___
 
+###2-首页-category-详情
+[http://yiapi.xinli001.com/fm/category-jiemu-list.json?category_id=1&offset=0&limit=10&key=046b6a2a43dc6ff6e770255f57328f89](http://yiapi.xinli001.com/fm/category-jiemu-list.json?category_id=1&offset=0&limit=10&key=046b6a2a43dc6ff6e770255f57328f89)
+#####`Request`:
+GET
+```
+category_id	1 //分类id - 情绪管理等
+offset	0
+limit	10
+key	046b6a2a43dc6ff6e770255f57328f89
+```
+#####`Response`:
+![image](home-category-detail.png)
+___
+
 ###3-FM播放
 [http://yiapi.xinli001.com/fm/broadcast-detail.json?id=99389004&key=046b6a2a43dc6ff6e770255f57328f89](http://yiapi.xinli001.com/fm/broadcast-detail.json?id=99389004&key=046b6a2a43dc6ff6e770255f57328f89)
 #####`Request`:
