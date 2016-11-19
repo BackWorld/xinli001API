@@ -25,6 +25,54 @@ key	046b6a2a43dc6ff6e770255f57328f89
 ![image](home-tuijian-detail.png)
 ___
 
+###2-首页-更多心理课
+[http://yiapi.xinli001.com/fm/newlesson-list.json?offset=0&limit=10&key=046b6a2a43dc6ff6e770255f57328f89]()
+#####`Request`:
+```
+offset 0
+limit	10
+key	046b6a2a43dc6ff6e770255f57328f89
+```
+#####`Response`:
+![更多心理课](http://upload-images.jianshu.io/upload_images/1334681-f12d9009519b8763.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+___
+
+###2-首页-更多FM
+[http://yiapi.xinli001.com/fm/newfm-list.json?offset=0&limit=10&key=046b6a2a43dc6ff6e770255f57328f89]()
+#####`Request`:
+```
+offset 0
+limit	10
+key	046b6a2a43dc6ff6e770255f57328f89
+```
+#####`Response`:
+![更多FM](http://upload-images.jianshu.io/upload_images/1334681-5f10b642ee99e826.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+___
+
+###2-首页-更多电台
+[http://yiapi.xinli001.com/fm/diantai-page.json?key=046b6a2a43dc6ff6e770255f57328f89]()
+#####`Request`:
+```
+key	046b6a2a43dc6ff6e770255f57328f89
+```
+#####`Response`:
+![更多电台](http://upload-images.jianshu.io/upload_images/1334681-650648bc6fb8ae60.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+___
+
+
+###2-首页-更多电台-更多主播
+[http://yiapi.xinli001.com/fm/diantai-new-list.json?offset=0&limit=10&key=046b6a2a43dc6ff6e770255f57328f89]()
+#####`Request`:
+```
+offset 0
+limit	10
+key	046b6a2a43dc6ff6e770255f57328f89
+```
+#####`Response`:
+![更多电台](http://upload-images.jianshu.io/upload_images/1334681-20ad5e806a99ff56.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+___
+
 ###2-首页-category-详情
 [http://yiapi.xinli001.com/fm/category-jiemu-list.json?category_id=1&offset=0&limit=10&key=046b6a2a43dc6ff6e770255f57328f89](http://yiapi.xinli001.com/fm/category-jiemu-list.json?category_id=1&offset=0&limit=10&key=046b6a2a43dc6ff6e770255f57328f89)
 #####`Request`:
@@ -61,7 +109,7 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-	"code": 1
+"code": 1
 }
 ```
 ___
@@ -77,7 +125,7 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-	"code": 2
+"code": 2
 }
 ```
 ___
@@ -92,8 +140,8 @@ key	046b6a2a43dc6ff6e770255f57328f89
 #####`Response`:
 ```
 {
-	"data": "HTML文本",
-	"code": 0
+"data": "HTML文本",
+"code": 0
 }
 ```
 ___
@@ -125,30 +173,30 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-    "code": 0,
-    "data": {
-        "id": "3028874",
-        "user_id": "1004261911",
-        "content": "哈喽？",
-        "created": "刚刚",
-        "created_str": "2016-07-17 14:10:14",
-        "zannum": 0,
-        "replynum": 0,
-        "role": 0,
-        "role_id": 0,
-        "user": {
-            "id": "1004261911",
-            "nickname": "菲拉兔",
-            "avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
-        },
-        "replyuser": null,
-        "replyobject": null,
-        "is_comment": 1,
-        "is_host_speaker": 0,
-        "reply_user": null
-    },
-    "message": "发表成功，成功获得10金币",
-    "num": "10"
+"code": 0,
+"data": {
+"id": "3028874",
+"user_id": "1004261911",
+"content": "哈喽？",
+"created": "刚刚",
+"created_str": "2016-07-17 14:10:14",
+"zannum": 0,
+"replynum": 0,
+"role": 0,
+"role_id": 0,
+"user": {
+"id": "1004261911",
+"nickname": "菲拉兔",
+"avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
+},
+"replyuser": null,
+"replyobject": null,
+"is_comment": 1,
+"is_host_speaker": 0,
+"reply_user": null
+},
+"message": "发表成功，成功获得10金币",
+"num": "10"
 }
 ```
 ___
@@ -170,50 +218,50 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-    "code": 0,
-    "data": {
-        "id": "3028876",
-        "user_id": "1004261911",
-        "content": "哈喽",
-        "created": "刚刚",
-        "created_str": "2016-07-17 14:13:17",
-        "zannum": 0,
-        "replynum": 0,
-        "role": 0,
-        "role_id": 0,
-        "user": {
-            "id": "1004261911",
-            "nickname": "菲拉兔",
-            "avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
-        },
-        "replyuser": null,
-        "replyobject": {
-            "id": "3028874",
-            "user_id": "1004261911",
-            "content": "哈喽？",
-            "created": "3分钟前",
-            "created_str": "2016-07-17 14:10:14",
-            "zannum": 0,
-            "replynum": 0,
-            "role": 0,
-            "role_id": 0,
-            "user": {
-                "id": "1004261911",
-                "username": "18810706793",
-                "nickname": "菲拉兔",
-                "avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
-            },
-            "replyuser": null,
-            "replyobject": null,
-            "is_comment": 1,
-            "is_host_speaker": 0
-        },
-        "is_comment": 1,
-        "is_host_speaker": 0,
-        "reply_user": null
-    },
-    "message": "发表成功，成功获得10金币",
-    "num": "10"
+"code": 0,
+"data": {
+"id": "3028876",
+"user_id": "1004261911",
+"content": "哈喽",
+"created": "刚刚",
+"created_str": "2016-07-17 14:13:17",
+"zannum": 0,
+"replynum": 0,
+"role": 0,
+"role_id": 0,
+"user": {
+"id": "1004261911",
+"nickname": "菲拉兔",
+"avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
+},
+"replyuser": null,
+"replyobject": {
+"id": "3028874",
+"user_id": "1004261911",
+"content": "哈喽？",
+"created": "3分钟前",
+"created_str": "2016-07-17 14:10:14",
+"zannum": 0,
+"replynum": 0,
+"role": 0,
+"role_id": 0,
+"user": {
+"id": "1004261911",
+"username": "18810706793",
+"nickname": "菲拉兔",
+"avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
+},
+"replyuser": null,
+"replyobject": null,
+"is_comment": 1,
+"is_host_speaker": 0
+},
+"is_comment": 1,
+"is_host_speaker": 0,
+"reply_user": null
+},
+"message": "发表成功，成功获得10金币",
+"num": "10"
 }
 ```
 ___
@@ -241,8 +289,8 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-	"code": 0,
-	"data": false
+"code": 0,
+"data": false
 }
 ```
 ___
@@ -258,9 +306,9 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-	"code": 0,
-	"data": true,
-	"message": "关注成功"/"取消关注"
+"code": 0,
+"data": true,
+"message": "关注成功"/"取消关注"
 }
 ```
 ___
@@ -291,9 +339,9 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-	"count": 0,
-	"data": [],
-	"code": 0
+"count": 0,
+"data": [],
+"code": 0
 }
 ```
 ___
@@ -325,29 +373,29 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-    "code": 0,
-    "data": {
-        "id": "3028867",
-        "user_id": "1004261911",
-        "content": "哈喽？",
-        "created": "刚刚",
-        "created_str": "2016-07-17 13:56:21",
-        "zannum": 0,
-        "replynum": 0,
-        "role": 0,
-        "role_id": 0,
-        "user": {
-            "id": "1004261911",
-            "username": "18810706793",
-            "nickname": "菲拉兔",
-            "avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
-        },
-        "replyuser": null,
-        "replyobject": null,
-        "is_comment": 1,
-        "is_host_speaker": 0
-    },
-    "message": "发表成功"
+"code": 0,
+"data": {
+"id": "3028867",
+"user_id": "1004261911",
+"content": "哈喽？",
+"created": "刚刚",
+"created_str": "2016-07-17 13:56:21",
+"zannum": 0,
+"replynum": 0,
+"role": 0,
+"role_id": 0,
+"user": {
+"id": "1004261911",
+"username": "18810706793",
+"nickname": "菲拉兔",
+"avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
+},
+"replyuser": null,
+"replyobject": null,
+"is_comment": 1,
+"is_host_speaker": 0
+},
+"message": "发表成功"
 }
 ```
 ___
@@ -363,9 +411,9 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-    "code": 0,
-    "data": null,
-    "message": "点赞成功"
+"code": 0,
+"data": null,
+"message": "点赞成功"
 }
 ```
 ___
@@ -383,49 +431,49 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-    "code": 0,
-    "data": {
-        "id": "3028871",
-        "user_id": "1004261911",
-        "content": "好",
-        "created": "刚刚",
-        "created_str": "2016-07-17 14:02:29",
-        "zannum": 0,
-        "replynum": 0,
-        "role": 0,
-        "role_id": 0,
-        "user": {
-            "id": "1004261911",
-            "username": "18810706793",
-            "nickname": "菲拉兔",
-            "avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
-        },
-        "replyuser": null,
-        "replyobject": {
-            "id": "3009990",
-            "user_id": "1000632085",
-            "content": "喜欢😍",
-            "created": "4周前",
-            "created_str": "2016-06-17 17:51:08",
-            "zannum": 0,
-            "replynum": 0,
-            "role": 0,
-            "role_id": 0,
-            "user": {
-                "id": "1000632085",
-                "username": "xinli_14453245065348",
-                "nickname": "暮雪晨星",
-                "avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
-            },
-            "replyuser": null,
-            "replyobject": null,
-            "is_comment": 1,
-            "is_host_speaker": 0
-        },
-        "is_comment": 1,
-        "is_host_speaker": 0
-    },
-    "message": "发表成功"
+"code": 0,
+"data": {
+"id": "3028871",
+"user_id": "1004261911",
+"content": "好",
+"created": "刚刚",
+"created_str": "2016-07-17 14:02:29",
+"zannum": 0,
+"replynum": 0,
+"role": 0,
+"role_id": 0,
+"user": {
+"id": "1004261911",
+"username": "18810706793",
+"nickname": "菲拉兔",
+"avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
+},
+"replyuser": null,
+"replyobject": {
+"id": "3009990",
+"user_id": "1000632085",
+"content": "喜欢😍",
+"created": "4周前",
+"created_str": "2016-06-17 17:51:08",
+"zannum": 0,
+"replynum": 0,
+"role": 0,
+"role_id": 0,
+"user": {
+"id": "1000632085",
+"username": "xinli_14453245065348",
+"nickname": "暮雪晨星",
+"avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
+},
+"replyuser": null,
+"replyobject": null,
+"is_comment": 1,
+"is_host_speaker": 0
+},
+"is_comment": 1,
+"is_host_speaker": 0
+},
+"message": "发表成功"
 }
 ```
 ___
@@ -447,32 +495,32 @@ images[] application/octet-stream //最多6张
 #####`Response`:
 ```
 {
-    "code": 0,
-    "data": {
-        "id": "27740",
-        "user_id": "1004261911",
-        "title": "有人吗",
-        "content": "嗯",
-        "created": "刚刚",
-        "updated": "刚刚",
-        "jin": "0",
-        "commentnum": "0",
-        "user": {
-            "id": "1004261911",
-            "nickname": "菲拉兔",
-            "avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
-        },
-        "absolute_url": "http://yiapi.xinli001.com/fm/forum-share-page/27740",
-        "images": [
-            "http://ossimg.xinli001.com/20160717/82daa9a7e41de3b77e9118eae3ef3f01.jpg",
-            "http://ossimg.xinli001.com/20160717/04d27cd71f02f1694e0193d9d866a7b1.jpg",
-            "http://ossimg.xinli001.com/20160717/31fc4d7c6c555cc08adefb717b6169bf.jpg",
-            "http://ossimg.xinli001.com/20160717/8062a899e40f382d89ee05ab139d6ea5.jpg",
-            "http://ossimg.xinli001.com/20160717/238565837f61122aadb71332a206a91c.jpg",
-            "http://ossimg.xinli001.com/20160717/cf5a1a523219bb262c4e5a3d36a92f3b.jpg"
-        ]
-    },
-    "message": "发布成功"
+"code": 0,
+"data": {
+"id": "27740",
+"user_id": "1004261911",
+"title": "有人吗",
+"content": "嗯",
+"created": "刚刚",
+"updated": "刚刚",
+"jin": "0",
+"commentnum": "0",
+"user": {
+"id": "1004261911",
+"nickname": "菲拉兔",
+"avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
+},
+"absolute_url": "http://yiapi.xinli001.com/fm/forum-share-page/27740",
+"images": [
+"http://ossimg.xinli001.com/20160717/82daa9a7e41de3b77e9118eae3ef3f01.jpg",
+"http://ossimg.xinli001.com/20160717/04d27cd71f02f1694e0193d9d866a7b1.jpg",
+"http://ossimg.xinli001.com/20160717/31fc4d7c6c555cc08adefb717b6169bf.jpg",
+"http://ossimg.xinli001.com/20160717/8062a899e40f382d89ee05ab139d6ea5.jpg",
+"http://ossimg.xinli001.com/20160717/238565837f61122aadb71332a206a91c.jpg",
+"http://ossimg.xinli001.com/20160717/cf5a1a523219bb262c4e5a3d36a92f3b.jpg"
+]
+},
+"message": "发布成功"
 }
 ```
 ___
@@ -519,28 +567,28 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-    "code": 0,
-    "data": {
-        "id": "3028883",
-        "user_id": "1004261911",
-        "content": "不错",
-        "created": "刚刚",
-        "created_str": "2016-07-17 14:31:50",
-        "zannum": "0",
-        "replynum": "0",
-        "role": "0",
-        "role_id": "0",
-        "user": {
-            "id": "1004261911",
-            "username": "18810706793",
-            "nickname": "菲拉兔",
-            "avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
-        },
-        "replyuser": null,
-        "reply": [],
-        "floor": 281
-    },
-    "message": "评论成功"
+"code": 0,
+"data": {
+"id": "3028883",
+"user_id": "1004261911",
+"content": "不错",
+"created": "刚刚",
+"created_str": "2016-07-17 14:31:50",
+"zannum": "0",
+"replynum": "0",
+"role": "0",
+"role_id": "0",
+"user": {
+"id": "1004261911",
+"username": "18810706793",
+"nickname": "菲拉兔",
+"avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
+},
+"replyuser": null,
+"reply": [],
+"floor": 281
+},
+"message": "评论成功"
 }
 ```
 ___
@@ -559,28 +607,28 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-    "code": 0,
-    "data": {
-        "id": "3028885",
-        "user_id": "1004261911",
-        "content": "真的",
-        "created": "刚刚",
-        "created_str": "2016-07-17 14:35:25",
-        "zannum": "0",
-        "replynum": "0",
-        "role": "0",
-        "role_id": "0",
-        "user": {
-            "id": "1004261911",
-            "username": "18810706793",
-            "nickname": "菲拉兔",
-            "avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
-        },
-        "replyuser": null,
-        "reply": [],
-        "floor": 282
-    },
-    "message": "评论成功"
+"code": 0,
+"data": {
+"id": "3028885",
+"user_id": "1004261911",
+"content": "真的",
+"created": "刚刚",
+"created_str": "2016-07-17 14:35:25",
+"zannum": "0",
+"replynum": "0",
+"role": "0",
+"role_id": "0",
+"user": {
+"id": "1004261911",
+"username": "18810706793",
+"nickname": "菲拉兔",
+"avatar": "http://ossimg.xinli001.com/20160329/9fe4842afb2c58c2200a1b9ae7a68ca9.png!80"
+},
+"replyuser": null,
+"reply": [],
+"floor": 282
+},
+"message": "评论成功"
 }
 ```
 ___
@@ -672,9 +720,9 @@ token b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-    "num": "50",
-    "code": 0,
-    "msg": "恭喜你获得50个金币"
+"num": "50",
+"code": 0,
+"msg": "恭喜你获得50个金币"
 }
 ```
 ___
@@ -691,8 +739,8 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-	"code": 0,
-	"data": []
+"code": 0,
+"data": []
 }
 // 没有数据的话 展示推荐关注列表
 ```
@@ -763,8 +811,8 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-	"data": [],
-	"code": 0
+"data": [],
+"code": 0
 }
 ```
 ___
@@ -797,8 +845,8 @@ key	046b6a2a43dc6ff6e770255f57328f89
 #####`Response`:
 ```
 {
-    "data": "发送成功",
-    "code": 0
+"data": "发送成功",
+"code": 0
 }
 ```
 ___
@@ -817,17 +865,17 @@ username	18810706794
 #####`Response`:
 ```
 {
-    {
-    "errors": {
-        "validcode": [
-            "注册验证码不正确"
-        ]
-    },
-    "data": [
-        "validcode:注册验证码不正确"
-    ],
-    "code": -1,
-    "msg": "注册验证码不正确"
+{
+"errors": {
+"validcode": [
+"注册验证码不正确"
+]
+},
+"data": [
+"validcode:注册验证码不正确"
+],
+"code": -1,
+"msg": "注册验证码不正确"
 }
 ```
 ___
@@ -843,13 +891,13 @@ username	18810706794
 #####`Response`:
 ```
 {
-    "data": "该手机号码没有注册",
-    "code": -5
+"data": "该手机号码没有注册",
+"code": -5
 }
 OR
 {
-    "data": "发送成功",
-    "code": 0
+"data": "发送成功",
+"code": 0
 }
 ```
 ___
@@ -866,8 +914,8 @@ username	18810706793
 #####`Response`:
 ```
 {
-    "data": "密码修改成功",
-    "code": 0
+"data": "密码修改成功",
+"code": 0
 }
 ```
 ___
@@ -883,29 +931,29 @@ username	18810706793
 #####`Response`:
 ```
 {
-    "data": "username or password error",
-    "post": {
-        "password": "gggg",
-        "key": "046b6a2a43dc6ff6e770255f57328f89",
-        "username": "18810706793"
-    },
-    "code": -1,
-    "msg": "邮箱或密码不正确"
+"data": "username or password error",
+"post": {
+"password": "gggg",
+"key": "046b6a2a43dc6ff6e770255f57328f89",
+"username": "18810706793"
+},
+"code": -1,
+"msg": "邮箱或密码不正确"
 }
 OR
 {
-    "data": {
-        "qq_openid": "",
-        "introduce": "?哈哈?",
-        "id": 1004261911,
-        "renren_openid": "",
-        "nickname": "菲拉兔",
-        "avatar": "http://image.xinli001.com/images/avatar.jpg",
-        "sina_openid": ""
-    },
-    "token": "b845588abcf58804c99d289584cd6068",
-    "code": 0,
-    "expire": "1471280139"
+"data": {
+"qq_openid": "",
+"introduce": "?哈哈?",
+"id": 1004261911,
+"renren_openid": "",
+"nickname": "菲拉兔",
+"avatar": "http://image.xinli001.com/images/avatar.jpg",
+"sina_openid": ""
+},
+"token": "b845588abcf58804c99d289584cd6068",
+"code": 0,
+"expire": "1471280139"
 }
 ```
 ___
@@ -919,17 +967,17 @@ token	b845588abcf58804c99d289584cd6068
 #####`Response`:
 ```
 {
-    "data": {
-        "msgnum": 0,
-        "qiandao": true,
-        "noticenum": 0,
-        "introduce": "?哈哈?",
-        "id": 1004261911,
-        "nickname": "菲拉兔",
-        "avatar": "http://image.xinli001.com/images/avatar.jpg",
-        "bitcoin": 70
-    },
-    "code": 0
+"data": {
+"msgnum": 0,
+"qiandao": true,
+"noticenum": 0,
+"introduce": "?哈哈?",
+"id": 1004261911,
+"nickname": "菲拉兔",
+"avatar": "http://image.xinli001.com/images/avatar.jpg",
+"bitcoin": 70
+},
+"code": 0
 }
 ```
 #END
